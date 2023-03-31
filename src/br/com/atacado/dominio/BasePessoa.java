@@ -61,5 +61,4 @@ public abstract class BasePessoa {
     }
 
     public abstract void Imprimir();
-    //aa
 }
