@@ -23,6 +23,10 @@ public class Veiculo extends Frota {
         this.placa = placa;
     }
 
+    public Veiculo() {
+
+    }
+
     public Veiculo(int codigo, String descricao, LocalDate datainsert) {
         super(codigo, descricao, datainsert);
     }

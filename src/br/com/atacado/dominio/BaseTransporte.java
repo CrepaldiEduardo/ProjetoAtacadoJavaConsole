@@ -1,12 +1,15 @@
 package br.com.atacado.dominio;
 
 import java.time.LocalDate;
+import java.util.List;
 
 public abstract class BaseTransporte {
 
     protected int codigo;
     protected String descricao;
     protected LocalDate dataInsert;
+
+    protected List<Frota> frota;
 
     public int getCodigo() {
         return codigo;
@@ -36,6 +39,9 @@ public abstract class BaseTransporte {
         this.codigo = codigo;
         this.descricao = descricao;
         this.dataInsert = datainsert;
+    }
+
+    public BaseTransporte() {
     }
 
 }

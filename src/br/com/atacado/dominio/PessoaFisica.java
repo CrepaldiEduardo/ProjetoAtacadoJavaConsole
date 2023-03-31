@@ -109,4 +109,8 @@ public class PessoaFisica extends BasePessoa {
 
     }
 
+    public PessoaFisica() {
+        super();
+    }
+
 }

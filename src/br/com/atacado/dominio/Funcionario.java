@@ -47,4 +47,8 @@ public abstract class Funcionario extends PessoaFisica {
                 nomeMae);
     }
 
+    public Funcionario() {
+        super();
+    }
+
 }

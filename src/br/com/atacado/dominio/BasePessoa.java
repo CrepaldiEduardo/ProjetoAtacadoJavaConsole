@@ -60,5 +60,8 @@ public abstract class BasePessoa {
         this.dataInclusao = dataInclusao;
     }
 
+    public BasePessoa() {
+    }
+
     public abstract void Imprimir();
 }
