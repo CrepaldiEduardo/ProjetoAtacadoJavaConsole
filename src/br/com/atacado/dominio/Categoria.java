@@ -50,4 +50,9 @@ public class Categoria {
         this.datadeInclusao = datadeInclusao;
     }
 
+    @Override
+    public String toString() {
+        return "Categoria [codigo=" + codigo + ", descricao=" + descricao + ", datadeInclusao=" + datadeInclusao + "]";
+    }
+
 }
